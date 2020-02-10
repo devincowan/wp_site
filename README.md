@@ -1,13 +1,5 @@
 # Based on [Bedrock](https://roots.io/bedrock/)
 
-Use [Trellis](https://github.com/roots/trellis) for additional features:
-
-* Easy development environments with [Vagrant](http://www.vagrantup.com/)
-* Easy server provisioning with [Ansible](http://www.ansible.com/) (Ubuntu 16.04, PHP 7.1, MariaDB)
-* One-command deploys
-
-See a complete working example in the [roots-example-project.com repo](https://github.com/roots/roots-example-project.com).
-
 ## Requirements
 
 * PHP >= 5.6
@@ -44,13 +36,6 @@ See a complete working example in the [roots-example-project.com repo](https://g
 5. Access WP admin at `http://example.com/wp/wp-admin`
 
 ## Deploys
-
-There are two methods to deploy Bedrock sites out of the box:
-
-* [Trellis](https://github.com/roots/trellis)
-* [bedrock-capistrano](https://github.com/roots/bedrock-capistrano)
-
-Any other deployment method can be used as well with one requirement:
 
 `composer install` must be run as part of the deploy process.
 
